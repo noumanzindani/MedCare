@@ -140,6 +140,7 @@ int selectedBoxIndex = 0; // Keeps track of the selected box
                 Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
+                SizedBox(width: 2.0,),
                 _buildSelectionBox(0, "Rs.106", "500 pellets"),
                 SizedBox(width: MediaQuery.of(context).size.width*0.03,),
                 _buildSelectionBox(1, "Rs.166", "110 pellets"),
